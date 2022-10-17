@@ -8,8 +8,8 @@ const Hero = () => {
             <div className={`flex-1 ${style.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
                 <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
                     <p className={`${style.paragraph} ml-2`}>
-                        <span className="text-white">PROYECTO</span> de{" "}
-                        <span className="text-white">INVESTIGACIÓN</span> y{" "}
+                        <span className="text-white">PROYECTO</span> DE{" "}
+                        <span className="text-white">INVESTIGACIÓN</span> Y{" "}
                         <span className="text-white">DESARROLLO</span>{""}
                     </p>
                 </div>
@@ -25,6 +25,7 @@ const Hero = () => {
                 <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
                     de Exploración.
                 </h1>
+                <p className={"text-white"}>{"PROTOTIPO EN DESARROLLO"}</p>
                 <p className={`${style.paragraph} max-w-[470px] mt-5`}>
                     EL Vehículo Autónomo de Exploración(VAE) está equipado con cámaras para operaciones de exploración y reconocimiento. Puede ser
                     fácilmente desplegado en el terreno, pudiendo cumplir misiones de forma autónoma o controlado a

@@ -105,7 +105,7 @@ const Carousel = () => {
                     {data.map((resource, index) => {
                         return (
                             <div
-                                key={index}
+                                key={index+"fotos"}
                                 className="carousel-item text-center relative w-64 h-64 snap-start"
                             >
                                 <div

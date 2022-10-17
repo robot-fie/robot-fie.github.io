@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './style'
-import {Navbar, Hero, Footer, Hero2, Specifications} from './components'
+import {Navbar, Hero, Footer, Specifications} from './components'
 import AboutUs from "./components/AboutUs";
 import Carrousel from "./components/Carrousel";
 import styles from "./style";
@@ -22,7 +22,7 @@ const App = () => {
 
             <div className={`bg-primary ${style.paddingX} ${style.flexStart}`}>
                 <div className={`${style.boxWidth}`}>
-                    <Hero2></Hero2>
+                    {/*<Hero2></Hero2>*/}
                     <Specifications></Specifications>
                     <Carrousel/>
                     <h2 id={"aboutUs"} className={styles.heading2}>
